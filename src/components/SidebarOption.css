@@ -1,0 +1,74 @@
+.sidebarOptions {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 100px;
+}
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  background:lightskyblue;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.sidebarOption > img {
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.SideBar_Option1{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  /* border: 1px solid grey; */
+  border-radius: 5px;
+  background-color: #E6E7E8;
+  margin-right: 20px;
+}
+
+.SideBar_Option1:hover{
+    background-color: lightskyblue;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.SideBar_Option1 > p{
+    color: grey;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.SideBar_Option1 > .MuiSvgIcon-root{
+    color: grey;
+    font-weight: medium;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    background-color: #E6E7E8;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  font-size: medium;
+  margin-left: 20px;
+}
+.sidebarOption > p {
+  margin-left: 10px;
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.sidebarOption > .text {
+  margin-left: 10px;
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+}
